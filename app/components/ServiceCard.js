@@ -7,7 +7,7 @@ const ServiceCard = ({ image, title, description }) => {
       <div className="p-4">
         <h3 className="text-xl font-bold">{title}</h3>
         <p className="text-gray-600 mt-2">{description}</p>
-        <a href="#" className="text-red-500 mt-4 block hover:underline">Read More</a>
+        <a href="https://wa.me/+233244510845" className="text-red-500 mt-4 block hover:underline">Learn More</a>
       </div>
     </div>
   );
