@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Banner = () => {
   return (
     <div className="relative">
-      <img src="/images/banner.jpg" alt="Welcome to Ashlands Exports" className="w-full h-96 object-cover"/>
+      <Image src="/images/banner.jpg" alt="Welcome to Ashlands Exports" width={500} height={500} className="w-full h-96 "/>
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
         <div className="text-center text-white p-4">
           <h1 className="text-3xl md:text-4xl font-bold">Welcome to Ashlands Exports</h1>

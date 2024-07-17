@@ -7,13 +7,13 @@ const MarketsTestimonials = () => {
       <div className="flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 p-4">
           <div className="bg-white shadow-md rounded-md p-4">
-            <p className="italic">"Great service and excellent support! We have expanded our market reach significantly."</p>
+            <p className="italic">{`"Great service and excellent support! We have expanded our market reach significantly."`}</p>
             <p className="mt-4 text-right">- Client Name, Company</p>
           </div>
         </div>
         <div className="w-full md:w-1/2 p-4">
           <div className="bg-white shadow-md rounded-md p-4">
-            <p className="italic">"Their expertise in global markets is unmatched. Highly recommend their services."</p>
+            <p className="italic">{`"Their expertise in global markets is unmatched. Highly recommend their services."`}</p>
             <p className="mt-4 text-right">- Client Name, Company</p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
@@ -11,7 +12,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-wrap justify-between items-center p-4">
         <div>
           <Link href='/' className="flex flex-col items-center justify-center">
-            <img src="/images/logo.png" alt="Ashlands Exports" className="h-12 mr-2" />
+            <Image width={100} height={500} src="/images/logo.png" alt="Ashlands Exports" className="h-12 mr-2" />
             <span className="font-bold text-lg">Ashlands Exports</span>
           </Link>
         </div>

@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import WhyChooseUs from './WhyChooseUs';
+import Image from 'next/image';
 
 const CompanyOverview = () => {
   const [currentTab, setCurrentTab] = useState('overview');
@@ -37,7 +38,7 @@ const CompanyOverview = () => {
           <div className='about-tabs-container min-h-[580px]'>
             {currentTab === 'overview' && <div className='about-tab-content container'>
               <h2 className="text-3xl font-bold">Company Overview</h2>
-              <img src="/images/about/overview.jpg" alt="Company Overview" className="w-full h-64 object-cover mt-4 transition delay-150 fade-in" />
+              <Image src="/images/about/overview.jpg" alt="Company Overview" width={500} height={500} className="w-full h-64 object-cover mt-4 transition delay-150 fade-in" />
               <p className="mt-4 transition delay-300">
                 Established in 2017, Ashlands Exports began as a construction and supply company. In 2020, we expanded into farming, focusing on maize, soya beans, snails, and the export of seeds and crop vegetables. Our goal is to enhance our export base to its full potential and explore agro-processing for local consumption and export.
               </p>

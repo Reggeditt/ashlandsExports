@@ -3,9 +3,9 @@ import React from 'react';
 const ContactForm = () => {
   return (
     <div className="container mx-auto py-12">
-      <h2 className="text-3xl font-bold text-center mb-8">We are always with you :)</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">{`We are always with you :)`}</h2>
       <div className="flex flex-wrap justify-center">
-        <img src="/contact-image.jpg" alt="Contact" className="w-full md:w-1/2 h-64 object-cover mb-8 md:mb-0" />
+        <Image src="/contact-image.jpg" alt="Contact" width={500} height={500} className="w-full md:w-1/2 h-64 object-cover mb-8 md:mb-0" />
         <div className="w-full md:w-1/2 p-4">
           <form>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">

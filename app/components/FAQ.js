@@ -2,7 +2,7 @@ const FAQ = () => {
   return (
     <div className="bg-gray-100 py-12" id="faq">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center">FAQ's</h2>
+        <h2 className="text-3xl font-bold text-center">FAQs</h2>
         <div className="mt-8">
           <div className="mb-4">
             <h3 className="text-xl font-semibold">What products does Ashlands Exports offer?</h3>

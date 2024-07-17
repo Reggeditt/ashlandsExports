@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ClientLogos = () => {
@@ -14,7 +15,7 @@ const ClientLogos = () => {
         <h3 className="text-2xl font-bold text-center mb-8">Our Valuable Clients</h3>
         <div className="flex flex-wrap justify-center items-center space-x-4">
           {clients.map((client, index) => (
-            <img key={index} src={client} alt="Client Logo" className="h-12"/>
+            <Image key={index} src={client} width={500} height={500} alt="Client Logo" className="h-12"/>
           ))}
         </div>
       </div>

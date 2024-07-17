@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ServiceCard = ({ image, title, description }) => {
   return (
     <div className="bg-white shadow-md rounded-md overflow-hidden">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <Image width={200} height={200} src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-4">
         <h3 className="text-xl font-bold">{title}</h3>
         <p className="text-gray-600 mt-2">{description}</p>
