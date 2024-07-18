@@ -6,10 +6,10 @@ const GalleryNews = () => {
       <div>
         <h2 className="text-3xl font-bold text-center">Recent Gallery</h2>
         <div className="grid grid-cols-2 gap-4 mt-8">
-          <Image width={500} height={500} src="/images/gallery/gallery1.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
-          <Image width={500} height={500} src="/images/gallery/gallery2.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
-          <Image width={500} height={500} src="/images/gallery/gallery3.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
-          <Image width={500} height={500} src="/images/gallery/gallery4.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
+          <Image width={200} height={200} src="/images/gallery/gallery1.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
+          <Image width={200} height={200} src="/images/gallery/gallery2.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
+          <Image width={200} height={200} src="/images/gallery/gallery3.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
+          <Image width={200} height={200} src="/images/gallery/gallery4.jpg" alt="Gallery" className="w-full h-40 object-cover"/>
         </div>
       </div>
       <div>

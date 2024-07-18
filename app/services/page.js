@@ -1,6 +1,6 @@
-import ClientLogos from "../components/ClientLogos";
-import ServicesBanner from "../components/ServicesBanner";
-import ServicesList from "../components/ServicesList";
+import ClientLogos from "./ClientLogos";
+import ServicesBanner from "./ServicesBanner";
+import ServicesList from "./ServicesList";
 
 const Services = () => {
   return (

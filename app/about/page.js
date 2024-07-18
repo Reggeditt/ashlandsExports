@@ -1,6 +1,6 @@
-import AboutBanner from "../components/AboutBanner";
-import CompanyOverview from "../components/CompanyOverview";
-import MeetOurTeam from "../components/MeetOurTeam";
+import AboutBanner from "./AboutBanner";
+import CompanyOverview from "./CompanyOverview";
+import MeetOurTeam from "./MeetOurTeam";
 
 const About = () => {
   return (

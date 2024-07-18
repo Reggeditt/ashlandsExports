@@ -1,10 +1,10 @@
-import Banner from "./components/Banner";
-import FAQ from "./components/FAQ";
-import GalleryNews from "./components/GalleryNews";
-import ServiceProcess from "./components/ServiceProcess";
-import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
-import WhyChooseUs from "./components/WhyChooseUs";
+import Banner from "./Banner";
+import FAQ from "./FAQ";
+import GalleryNews from "./GalleryNews";
+import ServiceProcess from "./ServiceProcess";
+import Services from "./Services";
+import Testimonial from "./Testimonial";
+import WhyChooseUs from "./WhyChooseUs";
 
 
 export default function Home() {
